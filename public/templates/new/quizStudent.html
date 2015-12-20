@@ -1,0 +1,11 @@
+
+
+        <h3>Vraag: {{hallo.questionnr}}</h3>
+        <h4>Tijd over {{hallo.tijd}}</h4>
+        <p>{{hallo.question}}</p>
+
+        <div ng-repeat="answer in hallo.choices">
+            <input type="radio" name="antwoord" ng-click="setAnswer(answer)">{{answer}}
+        </div>
+<br>
+                <input type="submit" value="Verstuur antwoord" ng-click="sendAnswer()">

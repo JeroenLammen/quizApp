@@ -1,0 +1,34 @@
+<div class="onehalf">
+<form>
+    <h3>Selecteer vragen</h3>
+
+    <div ng-repeat="question in questions">
+        <input ng-model="niks"
+               ng-checked="questionsChecked.indexOf(question.question) > -1"
+               ng-click="addToSelection(question.question)"
+               type="checkbox"
+               name="{{question.questionnr}}"
+               value="{{question.question}}">
+        {{question.question}}<br>
+    </div>
+    <br>
+    Setnaam: <input ng-model="setname" type="text" name="setnaam" id="setname"><br>
+    <input class="button" type="submit" value="Voeg set toe" ng-click="addQuestionsToSet()">
+</form>
+</div>
+
+<div class="onehalf">
+<form>
+    <h3>Selecteer set</h3>
+    <div ng-repeat="set in questionSets">
+        <input type="checkbox" name="{{set.setnr}}" value="{{set.setName}}" ng-click="useSetForQuiz(set)">
+        <a id="showQuestions">{{set.setName}}</a><br>
+        <div class="listOfQuestionsInSet">
+            <ul id="hiddenQuestionList">
+                <li ng-repeat="question in set.setQuestions">{{question.question}}</li>
+            </ul>
+        </div>
+    </div>
+    <input class="button" type="submit" value="Start quiz" ng-click="generateQuiz()">
+</form>
+</div>

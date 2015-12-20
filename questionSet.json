@@ -1,0 +1,84 @@
+[
+
+    {
+        "setnr":        "01",
+        "setName":      "mijnVraagset",
+        "setQuestions": [{
+                            "questionnr":   null,
+                            "question":     "Hoe laat is het?",
+                            "choices":      [
+                                "10 uur",
+                                "11 uur",
+                                "12 uur",
+                                "13 uur"
+                            ],
+                            "answer":       "10 uur",
+                            "subject":      "Tijd",
+                            "points":       "20"
+                        },
+                        {   "questionnr":   null,
+                            "question":     "Welke dag is het?",
+                            "choices":      [
+                                "maandag",
+                                "dinsdag",
+                                "woensdag",
+                                "donderdag"
+                            ],
+                            "answer":       "dinsdag",
+                            "subject":      "Tijd",
+                            "points":       "15"
+
+                        }]
+
+    } ,
+    {
+        "setnr":        "02",
+        "setName":      "jouwVraagset",
+        "setQuestions": [{
+                            "questionnr":   null,
+                            "question":     "Welke maand is het?",
+                            "choices":      [
+                                "september",
+                                "oktober",
+                                "november",
+                                "december"
+                            ],
+                            "answer":       "november",
+                            "subject":      "Tijd",
+                            "points":       "10"
+
+                        }]
+    } ,
+    {
+        "setnr":        "03",
+        "setName":      "MEGASUPERAWESOME",
+        "setQuestions": [{
+                            "questionnr":   null,
+                            "question":     "Welke maand is het?",
+                            "choices":      [
+                                "september",
+                                "oktober",
+                                "november",
+                                "december"
+                            ],
+                            "answer":       "november",
+                            "subject":      "Tijd",
+                            "points":       "10"
+
+                        },
+                        {   "questionnr":   null,
+                            "question":     "Welk jaar is het?",
+                            "choices":      [
+                                "2011",
+                                "2012",
+                                "2013",
+                                "2014"
+                            ],
+                            "answer":       "2014",
+                            "subject":      "Tijd",
+                            "points":       "5"
+
+                        }]
+    }
+
+]

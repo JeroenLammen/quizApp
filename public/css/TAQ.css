@@ -1,0 +1,212 @@
+@import url(http://fonts.googleapis.com/css?family=Montserrat:400,700);
+
+body {
+    width: 960px;
+    margin: 0 auto;
+    display: block;
+    background: rgb(76, 114, 182);
+    color: white;
+    font-family: 'Montserrat', sans-serif;
+}
+
+#header h1 {
+    margin: 15px 0px 0px 0px;
+}
+
+#header h3 {
+    margin: 5px 0px 15px 0px;
+    font-weight: normal;
+    font-style: italic;
+}
+
+#footer, #header {
+    padding: 15px 0px;
+    text-align: center;
+}
+
+.loginForm {
+    width: 50%;
+    float: left;
+    text-align: center;
+    padding: 80px 0px;
+}
+
+.loginForm:last-child {
+    clear: right;
+}
+
+.loginForm input[type="submit"] {
+    background: #FFF;
+    border: none;
+    padding: 5px 10px;
+    display: inline-block;
+    margin: 0 auto;
+    margin: 20px 0px;
+}
+
+.loginForm form {
+    display: inline-block;
+    border-top: 1px dashed;
+    border-bottom: 1px dashed;
+    padding-right: 10px;
+}
+
+#content {
+    display: inline-block;
+    width: 100%;
+}
+
+.inputlabel {
+    width: 120px;
+    display: inline-block;
+    margin: 10px;
+}
+
+/*#listOfQuestionsInSet {*/
+    /*display: none;*/
+/*}*/
+
+/*#hiddenQuestionList {*/
+    /*margin: 5px;*/
+/*}*/
+
+input[type=text] {
+    color:#3c3c3c;
+    font-family: 'Montserrat', sans-serif;
+    font-weight:500;
+    font-size: 15px;
+    line-height: 15px;
+    background-color: #fbfbfb;
+    padding: 5px 5px 5px 10px;
+    margin-bottom: 10px;
+    width:172px;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -ms-box-sizing: border-box;
+    box-sizing: border-box;
+    border: 3px solid rgba(0,0,0,0);
+}
+
+input[type=password] {
+    color:#3c3c3c;
+    font-family: 'Montserrat', sans-serif;
+    font-weight:500;
+    font-size: 15px;
+    line-height: 15px;
+    background-color: #fbfbfb;
+    padding: 5px 5px 5px 10px;
+    margin-bottom: 10px;
+    width:172px;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -ms-box-sizing: border-box;
+    box-sizing: border-box;
+    border: 3px solid rgba(0,0,0,0);
+}
+
+
+.onehalf {
+    width: 50%;
+    float:left;
+}
+
+.onehalf:last-child{
+    clear:right;
+}
+
+.button {
+    border: 0px;
+    background: #060D3F;
+    color: rgb(76, 114, 182);
+    border-radius: 3px;
+    padding: 5px 10px;
+    margin-left: 20%;
+    margin-top: 20px;
+    font-weight: bold;
+}
+
+#errormessageTeacher {
+    color: red;
+    display: none;
+    font-size: 8pt;
+}
+
+#errormessageStudent {
+    color: red;
+    display: none;
+    font-size: 8pt;
+}
+
+#errormessageStudent2 {
+    color: red;
+    display: none;
+    font-size: 8pt;
+}
+
+#errormessageStudent3 {
+    color: red;
+    display: none;
+    font-size: 8pt;
+}
+
+#antwoord {
+    display: none
+}
+
+/*#score {*/
+    /*display: none*/
+/*}*/
+
+#countdown {
+    display: none;
+}
+
+#notEnoughPlayers {
+    display: none;
+    color: red;
+    font-size: 10pt
+}
+
+#tussenstand tr:nth-child(1) {
+    font-size: 20px;
+}
+
+#tussenstand tr:nth-child(2) {
+    font-size: 18px;
+    background: gold;
+}
+
+#tussenstand tr:nth-child(3) {
+    font-size: 16px;
+    background: silver;
+}
+
+#tussenstand tr:nth-child(4) {
+    font-size: 14px;
+    background: darkgoldenrod;
+}
+
+#tussenstand tr {
+    font-size: 12px;
+    background: darkred;
+}
+
+#tussenstand td {
+    padding: 10px 20px;
+}
+
+#tussenstand {
+    margin: 0 auto;
+}
+
+.center {
+    text-align: center;
+}
+
+#endresult2 {
+    display: none;
+}
+
+#questionAnsweredBy {
+    display: none;
+}

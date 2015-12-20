@@ -1,0 +1,106 @@
+[
+
+    {   "questionnr":   null,
+        "question":     "Hoe laat is het?",
+        "choices":      [
+                            "10 uur",
+                            "11 uur",
+                            "12 uur",
+                            "13 uur"
+                        ],
+        "answer":       "10 uur",
+        "subject":      "Tijd",
+        "points":       "20"
+
+    } ,
+    {   "questionnr":   null,
+        "question":     "Welke dag is het?",
+        "choices":      [
+                            "maandag",
+                            "dinsdag",
+                            "woensdag",
+                            "donderdag"
+                        ],
+        "answer":       "dinsdag",
+        "subject":      "Tijd",
+        "points":       "15"
+
+    } ,
+    {   "questionnr":   null,
+        "question":     "Welke maand is het?",
+        "choices":      [
+                            "september",
+                            "oktober",
+                            "november",
+                            "december"
+                        ],
+        "answer":       "november",
+        "subject":      "Tijd",
+        "points":       "10"
+
+    } ,
+    {   "questionnr":   null,
+        "question":     "Welk jaar is het?",
+        "choices":      [
+                            "2011",
+                            "2012",
+                            "2013",
+                            "2014"
+                        ],
+        "answer":       "2014",
+        "subject":      "Tijd",
+        "points":       "5"
+
+    },
+    {   "questionnr":   null,
+        "question":     "Welke van de MVC-componenten zijn verantwoordelijk voor het vertalen van gebruikershandelingen (in de UI) naar operaties op de onderliggende data?",
+        "choices":      [
+                            "Models",
+                            "Views",
+                            "Controllers"
+                        ],
+        "answer":       "Controllers",
+        "subject":      "AngularJS",
+        "points":       "10"
+
+    },
+    {   "questionnr":   null,
+        "question":     "Welke van de MVC-componenten zijn verantwoordelijk voor het weergeven van de applicatie-data in de UI?",
+        "choices":      [
+                            "Models",
+                            "Views",
+                            "Controllers"
+                        ],
+        "answer":       "Views",
+        "subject":      "AngularJS",
+        "points":       "10"
+
+    },
+    {   "questionnr":   null,
+        "question":     "'ng-app' en 'ng-model' zijn voorbeelden van een AngularJS concept dat volgens Curran Kelleher erg 'powerful' is. Hoe heet dat concept, en wat kun je ermee?",
+        "choices":      [
+                            "Bindings",
+                            "Dependencies",
+                            "Extensions",
+                            "Directives"
+                        ],
+        "answer":       "Directives",
+        "subject":      "AngularJS",
+        "points":       "10"
+
+    },
+    {   "questionnr":   null,
+        "question":     "Wat is de typische vorm voor de waarde van het ng-repeat attribuut?",
+        "choices":      [
+                            "ng-repeat='function()'",
+                            "ng-repeat='number in start..end'",
+                            "ng-repeat='for each(element : list)'",
+                            "ng-repeat='item in array'"
+                        ],
+        "answer":       "ng-repeat='item in array'",
+        "subject":      "AngularJS",
+        "points":       "10"
+
+    }
+
+]

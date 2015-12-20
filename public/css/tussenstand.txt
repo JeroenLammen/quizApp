@@ -1,0 +1,35 @@
+#tussenstand tr:nth-child(1) {
+    font-size: 20px;
+}
+
+#tussenstand tr:nth-child(2) {
+    font-size: 18px;
+    background: gold;
+}
+
+#tussenstand tr:nth-child(3) {
+    font-size: 16px;
+    background: silver;
+}
+
+#tussenstand tr:nth-child(4) {
+    font-size: 14px;
+    background: darkgoldenrod;
+}
+
+#tussenstand tr {
+    font-size: 12px;
+    background: darkred;
+}
+
+#tussenstand td {
+    padding: 10px 20px;
+}
+
+#tussenstand {
+    margin: 0 auto;
+}
+
+.center {
+    text-align: center;
+}

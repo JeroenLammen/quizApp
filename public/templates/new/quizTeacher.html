@@ -1,0 +1,23 @@
+<h1>{{urlString}}</h1>
+<div ng-repeat="player in players">
+    {{player}}
+</div>
+        <div ng-repeat="blabla in data.quizzz.setQuestions">
+            <h1>{{blabla.questionnr}}</h1>
+            {{blabla.question}}
+        </div>
+
+        <input type="submit" ng-click="sendQuestion()" value="Stuur vraag">
+
+        <div ng-repeat="answer in answers">
+            {{answer}}
+        </div>
+
+<h2>Scores</h2>
+<table>
+    <tr><td>Naam</td><td>Score</td></tr>
+    <div ng-repeat="student in studenten">
+        <tr> <td>{{student.naam}}</td><td>{{student.score}}</td></tr>
+    </div>
+
+</table>

@@ -1,0 +1,21 @@
+<div class="loginForm">
+    <form>
+        <h2>Docent</h2>
+        <span class="inputlabel">Naam</span> <input id="username" ng-model="userName" type="text" name="username"><br>
+        <span class="inputlabel">Wachtwoord</span> <input id="password" ng-model="password" type="password" name="password"><br>
+        <div id="errormessageTeacher">De gebruikersnaam en/of het wachtwoord is verkeerd!</div>
+        <input ng-click="teacherLogin()" type="submit" value="Submit">
+    </form>
+</div>
+
+<div class="loginForm">
+    <form>
+        <h2>Student</h2>
+        <span class="inputlabel">Naam</span> <input id='studentname' ng-model="studentName" type="text" name="studentnaam"><br>
+        <span class="inputlabel">Kamer code</span> <input id="kamercode" ng-model="roomCode" type="text" name="kamercode"><br>
+        <div id="errormessageStudent">Deze kamer bestaat niet!</div>
+        <div id="errormessageStudent2">Vul een naam en een kamer in!</div>
+        <div id="errormessageStudent3">Deze gebruiker bestaat al!</div>
+        <input ng-click="goToRoom()" type="submit" value="Submit">
+    </form>
+</div>
