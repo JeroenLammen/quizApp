@@ -24,4 +24,4 @@ import .json files into database with:
 
 ---
 
-![alt text](https://github.com/JeroenLammen/quizApp/blob/master/readme_images/Screenshot_5.png "questions answered")
+![alt text](https://github.com/JeroenLammen/quizApp/blob/master/readme_images/Screenshot_6.png "questions answered")
