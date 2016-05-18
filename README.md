@@ -4,6 +4,8 @@ A quiz app made with socket.io for a school project
 import .json files into database with:
 `mongoimport --db databasename --collection collectionname --file file.json --jsonArray`
 
+*Made by Max van de Peppel and Jeroen Lammen*
+
 ![alt text](https://github.com/JeroenLammen/quizApp/blob/master/readme_images/Screenshot_1.png "home screen")
 
 ---
